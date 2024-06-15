@@ -1,11 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: Verdana, sans-serif;
     padding: 0;
     min-width: 100vh;
     min-height: 100vh;
- 
 }
 
 
@@ -113,7 +111,7 @@ a {
     display: flex;
     flex-direction: column;
     width: 12vw;
-    height: 12vw;    
+    height: 15vw;    
     gap: 1vw;
 }
 
@@ -126,4 +124,35 @@ a {
 .description {
     text-align: center;
     flex: 1;
+}
+
+
+/* quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 7.5vw 5vw;
+}
+
+.container-quote {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-autor {
+    color: #0d1218;
+    font-size: 30px;
+    font-weight: 600;
+    align-self: flex-end;
 }
