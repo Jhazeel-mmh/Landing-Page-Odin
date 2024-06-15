@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, sans-serif;
+}
+
+
+/* Header */
+
+.header, .start {
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1vw;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1vw;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
